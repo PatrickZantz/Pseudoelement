@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section p::first-letter {
+    font-size: 34px;
+}
+
+div {
+    margin: 100px;
+    width: 400px;
+    height: 120px;
+    text-align: center;
+}
+
+
+em {
+    font-style: normal;
+    text-decoration: underline;
+}
+
+section {
+    background-image: url("../img/157247.png"), url("../img/157248.png");
+
+    position: absolute;
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: 30px 60px, 500px 200px;
+}

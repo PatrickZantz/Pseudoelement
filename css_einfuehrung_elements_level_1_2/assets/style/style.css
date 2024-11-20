@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.kaese {
+
+    color: #a020f0;
+    color: #00bfff;
+    color: #32cd32;
+    color: #c71585;
+    color: #00ced1;
+    color: #483d8b;
+    color: #2e8b57;
+}
+
+html {
+
+    margin: 40px;
+    /* line-height: 2; */
+}
+
+h3::first-letter {
+    font-size: 3em;
+    color: #2e8b57;
+}
+
+ul {
+    margin: 30px;
+}
+
+li::first-letter {
+    font-size: 30px;
+}
+
+li:nth-of-type(1)::first-letter {
+    color: #00bfff;
+    text-decoration: overline;
+}
+
+li:nth-of-type(2)::first-letter {
+    color: #c71585;
+    text-decoration: underline;
+}
+
+li:nth-of-type(3) {
+    text-decoration: line-through;
+}
+
+
+li:nth-of-type(3)::first-letter {
+    color: #32cd32;
+    text-decoration: line-through;
+    text-overflow: ellipsis;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+p:nth-of-type(1) {
+    color: #495659;
+    text-indent: 50px;
+}
+
+p:nth-of-type(3), p:nth-of-type(5) {
+    font-size: 12px;
+}
+
+p:nth-of-type(n + 2)::first-letter {
+    color: #c71585;
+}
+
+p:nth-of-type(n + 2)::first-line {
+    color: #2e8b57;
+}
